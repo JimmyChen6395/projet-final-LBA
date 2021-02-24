@@ -1,0 +1,81 @@
+/* Normalisation de ma page RESET CSS  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* GLOBAL */
+
+h1 {
+    font-family: 'Staatliches', cursive;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0 10rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    margin-left: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li a {
+    padding: 1rem;
+}
+
+#navbarfix nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbarfix nav ul li a {
+    display: inline-block;
+    padding: 1.5rem 0;
+}
+
+#container {
+    display: flex;
+}
+
+#container .left,
+.center,
+.right {
+    margin-right: 1rem;
+}
+
+.center div div {
+    display: flex;
+}
+
+#News {
+    display: flex;
+}
